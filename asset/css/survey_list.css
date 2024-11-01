@@ -1,0 +1,24 @@
+body{
+	background-color: transparent !important;
+}
+#survey_wait{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.survey_wait{
+	margin-top: 15%;
+}
+
+.survey_list_action_img {margin: 0 2px; cursor: pointer;}
+.survey_title_list {cursor: pointer;}
+.survey_title_list:HOVER {color: blue;text-decoration: underline;}
+#heading_not_found {text-align: center;}
+.surveyMultipleChoiceInput {width: 90%;margin-top: 10px;}
+.reportQuestion{ margin-top: 30px; }
+.reportAnsContainer{ width: 100%; padding-left: 30px; }
+.answerProgressBar{ padding: 10px; }
+
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
